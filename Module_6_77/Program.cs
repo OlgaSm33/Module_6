@@ -191,7 +191,8 @@ namespace Module_6_77
             return x;
         }
 
-        public Tproduct this[int index] {
+        public Tproduct this[int index]
+        {
             get
             {
                 if (index >= 0)
@@ -204,6 +205,8 @@ namespace Module_6_77
                 }
             }
 
+        }
+
 
     }
 
@@ -212,12 +215,7 @@ namespace Module_6_77
         public string Name;
         public string Type;
         public long ID;
-        public PaymentMethod(string name, string type, long id)
-        {
-            Name = name;
-            Type = type;
-            ID = id;
-        }
+        
 
     }
 
